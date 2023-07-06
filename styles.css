@@ -1,0 +1,129 @@
+ .body{
+    margin:0;
+ }
+ 
+ .container1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: #ecf2f4;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: rgb(155, 188, 208);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: #ecf2f4;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container2:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text2 {
+    color: rgb(155, 188, 208);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+    .container {
+       
+       
+        align-items: center;
+      
+      }
+ .placeholder{
+   
+    
+        font-family: cursive;
+        font-size: 55;
+        font-weight: bold;
+        color: rgb(70, 86, 98);
+    
+ }
+ .placeholder2{
+    background-color:aqua;
+ }
+ .portfolio-items-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .img{
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+
+ }
+ .portfolio-img-background{
+    height:350px;
+    width:100;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
